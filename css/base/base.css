@@ -13,3 +13,7 @@ a:hover, a:focus {
 a:visited {
   color: darkgrey;
 }
+
+body {
+  background-color: #cee4eb54;
+}
