@@ -1,0 +1,8 @@
+# Schema for the configuration files of the demoTheme theme.
+demotheme.settings:
+  type: theme_settings
+  label: 'demoTheme settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size
