@@ -4,6 +4,7 @@ global:
     js/demotheme.js: {}
   css:
     base:
+      css/base/base.css: {}
       css/base/elements.css: {}
     component:
       css/components/block.css: {}
