@@ -1,0 +1,12 @@
+footer.footer {
+  background-color: #ffab0026;
+  color: #464646;
+}
+
+.footer a, .menu-footer .menu-footer__link {
+  color: #526cfe;
+}
+.footer a:hover, .menu-footer .menu-footer__link:hover{
+  outline-color: unset;
+  background-color: unset;
+}
