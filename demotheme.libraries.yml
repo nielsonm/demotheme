@@ -1,7 +1,18 @@
 # Main theme library.
 global:
   js:
-    js/demotheme.js: {}
+    js/demotheme.js: {
+      attributes: {
+        type: module
+      }
+    }
+    https://1.www.s81c.com/common/carbon/web-components/tag/latest/accordion.min.js: {
+      type: external,
+      minified: true,
+      attributes: {
+        type: module
+      }
+    }
   css:
     base:
       css/base/base.css: {}

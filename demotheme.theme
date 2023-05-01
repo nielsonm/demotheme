@@ -25,3 +25,7 @@ function demotheme_preprocess_page(&$variables) {
 function demotheme_preprocess_node(&$variables) {
 
 }
+
+function demotheme_page_attachments_alter(&$page) {
+  $page['#attached']['library'][] = 'demotheme/carbon-wc-accordion';
+}
