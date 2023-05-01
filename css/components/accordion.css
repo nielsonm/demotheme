@@ -1,0 +1,11 @@
+html {
+  --cds-ui-03: #5f635d;
+}
+#block-footeraccordionblock {
+  display: block;
+  background-color: #cccc;
+}
+
+#block-footeraccordionblock bx--accordion__item p {
+
+}
